@@ -293,7 +293,7 @@ public class MainFrame extends java.awt.Frame implements Console.Directory {
 		fun = new Bootstrap();
 	    String t = fun.title();
 	    if(t == null)
-		setTitle("Haven & Hearthhhh");
+		setTitle("test");
 	    else
 		setTitle("Haven & Hearth \u2013 " + t);
 	    fun = fun.run(p.newui(fun));
